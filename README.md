@@ -1,4 +1,4 @@
 Cipher
 ======
 
-This is a simple cipher converter. Each letter in each word of the encrypted text is shifted down alphabetically. This shift is a key. 
+This is a simple cipher converter. Each letter in each word of the encrypted text is shifted down alphabetically. This shift is a key. For example you have the text "Hello World" and the key is 2 then the output you will have is "JGNNQ YQTNF". Now the program I have takes the shifted text and converts to back to its original state. Now I know the key so I kind of hard coded that part. If I did not know the Key I could make a loop that will start at 1 and go to n. After each key conversion I could ask the user does the sentence makes sense. If it does the program is done if not the Key icrements by 1 and the process repeats. This is a quick program I did in Main, the proper way to do this would be to make a constructor along with the proper methods, then create an instance of that object and call on those methods. 
